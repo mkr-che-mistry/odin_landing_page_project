@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+.header-container{
+    background-color: #1f2937;
+    height: 400px;
+    width: auto;
+    color: white;
+}
+
+.headline{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    padding-top: 10px;
+    padding-left: 400px;
+    display: flex;
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo > p{
+    background-color: rgb(172, 5, 5);
+    padding: 5px;
+
+}
+
+.links{
+    padding-top: 10px;
+    padding-right: 400px;
+    display: flex;
+    flex: 1; 
+    justify-content: space-evenly;
+    width: 400px;  
+
+}
+
+.container-body{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+    
+}
+
+.description{
+    
+    padding-left: 400px;
+    width: 350px;
+}
+
+.description > h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.image{
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.dimension{
+    height: 250px;
+    width: 500px;
+}
+
+.body-headline{
+    text-align: center;
+
+}
+
+.trending-container{
+    display: flex;
+    justify-content: center;
+}
+
+.trending-box{
+    height: 150px;
+    width: 100px;
+    border-radius: 20px;
+    margin-right: 20px;
+   
+}
+
+.box-image{
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.text-container{
+    font-size: small;
+    margin-top: 5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Show two lines of text */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; 
+}
+
+.quote-container{
+    margin-top: 30px;
+    background-color: #e5e7eb;
+    width: auto;
+    height: fit-content;
+    text-align: center;
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    padding: 30px;
+
+}
+
+.footer-container{
+    
+    width: 900px;
+    height: 100px;
+    margin: 30px auto;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+}
+
+.message{
+    width: auto;
+    flex: 1;
+    align-items: center;
+    padding-left: 100px;
+
+
+}
+
+.invitation{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    
+    
+}
+
+.signup{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 75px;
+    text-align: center;
+    padding: 5px 5px;
+    margin-left: 200px;
+    
+}
+
+
+
+
